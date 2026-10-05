@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing rounded badge backdrop -->
+    <path
+        android:pathData="M34,28 L74,28 A10,10 0 0,1 84,38 L84,70 A10,10 0 0,1 74,80 L34,80 A10,10 0 0,1 24,70 L24,38 A10,10 0 0,1 34,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="28"
+                android:endX="84"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#4F46E5" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner dark card for depth -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M35,32 L73,32 A7,7 0 0,1 80,39 L80,69 A7,7 0 0,1 73,76 L35,76 A7,7 0 0,1 28,69 L28,39 A7,7 0 0,1 35,32 Z" />
+
+    <!-- Terminal header dots -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M33,37 A1.5,1.5 0 1,0 36,37 A1.5,1.5 0 1,0 33,37" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M38,37 A1.5,1.5 0 1,0 41,37 A1.5,1.5 0 1,0 38,37" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M43,37 A1.5,1.5 0 1,0 46,37 A1.5,1.5 0 1,0 43,37" />
+
+    <!-- Code bracket left '<' -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,46 L38,54 L45,62" />
+
+    <!-- Slash '/' -->
+    <path
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M51,64 L57,44" />
+
+    <!-- Code bracket right '>' -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M63,46 L70,54 L63,62" />
+
+    <!-- Best project star badge at top-right -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,24 L80,30 L86,30 L81,34 L83,40 L78,36 L73,40 L75,34 L70,30 L76,30 Z" />
+</vector>
